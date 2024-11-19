@@ -1,4 +1,4 @@
-torch
-streamlit
-torchvision
-Pillo
+torch==1.13.1
+torchvision==0.14.1
+streamlit==1.12.2
+Pillow
