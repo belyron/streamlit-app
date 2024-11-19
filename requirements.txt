@@ -2,3 +2,4 @@ torch==2.5.1
 torchvision==0.20.1
 streamlit==1.12.2
 Pillow
+altair==4.2.0
