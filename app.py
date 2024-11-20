@@ -59,7 +59,7 @@ def main():
     if uploaded_file is not None:
         # Step 6: Display the uploaded image
         image = Image.open(uploaded_file).convert('RGB')
-        st.image(image, caption='Uploaded Image', use_container_width=True)
+        st.image(image, caption='Uploaded Image')
         
         # Step 7: Load the model
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
